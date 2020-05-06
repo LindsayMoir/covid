@@ -48,7 +48,7 @@ https://towardsdatascience.com/a-complete-guide-to-an-interactive-geographical-m
 
 ## Results<a name="results"></a>
 
-The interpretation of the results are published in this blog [post](https://medium.com/@mlataibrahim/how-data-people-are-using-stackoverflow-f8799f8e0e9e) 
+The results are published in this blog [post](https://medium.com/@tragoes/time-to-get-out-ea33e637d05b) 
 
 
 ## Deploy<a name="deploy"></a>
