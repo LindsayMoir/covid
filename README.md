@@ -14,40 +14,7 @@
 
 ## Installation <a name="installation"></a>
 
-The code runs with Python version 3.6.3. There are a large number of libraries required to run this notebook. 
-
-# import libraries
-
-# ARIMA libraries
-from math import sqrt
-from sklearn.metrics import mean_squared_error
-from sklearn import preprocessing
-from statsmodels.graphics.tsaplots import plot_acf
-from statsmodels.graphics.tsaplots import plot_pacf
-from statsmodels.tsa.arima_model import ARIMA
-from statsmodels.tsa.arima_model import ARIMAResults
-from statsmodels.tsa.stattools import adfuller
-import warnings
-
-# Global map visualization
-from bokeh.io import output_notebook, show, output_file
-from bokeh.plotting import figure
-from bokeh.models import GeoJSONDataSource, LinearColorMapper, ColorBar
-from bokeh.palettes import brewer
-
-# Regular libraries
-from datetime import datetime, timedelta
-import dateutil.parser
-import geopandas as gpd
-import glob
-from IPython.display import Image
-import json
-import math
-import matplotlib.pyplot as plt 
-plt.rcParams['figure.figsize'] = (12,8)
-import numpy as np
-import pandas as pd
-import seaborn as sns
+The code runs with Python version 3.6.3. There are a large number of libraries required to run this notebook. Those are for ARIMA, BOKEH, and "regular libraries". Please go to the # import libraries cell which is near the top of the notebook for the definitive list.
 
 
 ## Project Motivation<a name="motivation"></a>
