@@ -14,7 +14,7 @@
 
 ## Installation <a name="installation"></a>
 
-The code runs with Python version 3.6.3. There are a large number of libraries required to run this notebook. These can be found near the top of notebook in the # import libraries cell.
+The code runs with Python version 3.6.3. There are a large number of libraries required to run this notebook. Those are for ARIMA, BOKEH, and "regular libraries". Please go to the # import libraries cell which is near the top of the notebook for the definitive list.
 
 
 ## Project Motivation<a name="motivation"></a>
@@ -48,7 +48,12 @@ https://towardsdatascience.com/a-complete-guide-to-an-interactive-geographical-m
 
 ## Results<a name="results"></a>
 
-The results are published in this blog [post](https://medium.com/@tragoes/time-to-get-out-ea33e637d05b) 
+The results are published in this blog [post](https://medium.com/@tragoes/time-to-get-out-ea33e637d05b). A quick summary is this.
+
+- 24 of 28 countries (that met the cutoffs) have a flattening of the curve presently. That is VERY encouraging.
+- It is surprising to see rich countries struggle with this virus. There is a saying that democracies get the type of leadership that they deserve. Hopefully this is a wake up call that electing incompetent politicians with massive character flaws to the highest office in the land can and does cause death. This time those deaths are being counted. They are not hidden in Syria, Afghanistan, etc. They are right in the home countries that have weak leadership.
+- Including the Median Per Capita Income and the Transparency International score was helpful in terms of creating cutoffs that made sense.
+- One sobering thought here is that there are 203 unique Alpha_3 codes in this dataset. That corresponds to 203 Country_Regions. We are only looking at 28 of them. This is because of the concern over the honesty of the data. In otherwords the challenge that we are looking at here is only the tip of the iceberg.
 
 
 ## Deploy<a name="deploy"></a>
