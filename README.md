@@ -1,4 +1,5 @@
 # Data Science Blog Post - Covid-19, Time To Get Out?
+May 5, 2020
 
 
 ## Table of Contents
